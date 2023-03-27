@@ -1,0 +1,31 @@
+.container{
+    width: 35%;
+}
+
+[class="container_parag"]{
+    font-size: 20px;
+}
+
+/* .container_div_one .container_parag  #border{
+    border: 2px solid #222;
+} */
+
+/* .container_div_one .container_parag  #texts{
+    background-color: red;
+} */
+
+
+.container_parag :nth-child(1){
+    border: 2px solid #222;
+}
+.container_parag :nth-child(2){
+    background-color: red;
+}
+
+.container_div_two h1{
+    background-color: yellow;
+}
+
+.container_div_three .container_parag > span{
+    background-color: green;
+}
